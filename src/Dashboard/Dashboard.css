@@ -1,0 +1,144 @@
+.dashboard{
+    display: flex;
+    margin-top: 1px;
+    max-width: 1400px;
+    padding: 0;
+    margin-right: 0;
+}
+.main_page{
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    min-height: 100vh;
+    flex: 4; 
+    background-color: #F7F7F7;
+    padding:  1px 30px;
+}
+.main_content{
+    margin-top: 15px;
+    min-width: 100%;
+}
+.side_app{
+    padding: 25px 0.75rem 0;
+}
+.page header{
+    align-items: center;
+    border-radius: 7px;
+    justify-content: space-between;
+    margin: 2rem 0;
+    min-height: 50px;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.dash_card_container1{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    padding-top: 10px;
+}
+.dash_card_container2{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+.dash_card_icon1{
+    align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  padding-left: 5px;
+  padding-top: 3px;
+  margin-right: 10px;
+}
+.dash_card_content1{
+    align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.d-block{
+    display: block;
+}
+.page_title{
+    font-weight: 500;
+    line-height: 2.5rem;
+    font-size: 20px;
+    margin: 0;
+    padding-left: 10px;
+    text-align: left;
+    position: relative;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.col-xl-3 , .col-lg-6 , .col-md-12 , .col-7{
+    min-height: 1px;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    position: relative;
+}
+.card {
+    word-wrap: break-word;
+    background-clip: border-box;
+    background-color: #fff;
+    border: 0;
+    border-radius: 13px;
+    box-shadow: 0 0.15rem 1.75rem 0 rgb(196 205 224 / 20%);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    width: 300px;
+    height: 150px;
+}
+.card-body {
+    flex: 1 1 auto;
+    margin: 0;
+    position: relative;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.col-7 {
+    flex: 0 0 58.33333333%;
+    max-width: 58.33333333%;
+}
+.text-left {
+    text-align: left;
+}
+.mt-0, .my-0 {
+    margin-top: 0;
+}
+.font-weight-semibold {
+    font-weight: 500;
+}
+.mt-1, .my-1 {
+    margin-top: 0.25rem;
+}
+.mb-0, .my-0 {
+    margin-bottom: 0;
+}
+.h3, h3 {
+    font-size: 1.5rem;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: 0.66em;
+}
+.my-auto {
+    margin-bottom: auto;
+}
+.my-auto {
+    margin-top: auto;
+}
+.float-right {
+    float: right;
+}
+.responsive{
+    display: block;
+    overflow-x: auto;
+    width: 940px;
+}

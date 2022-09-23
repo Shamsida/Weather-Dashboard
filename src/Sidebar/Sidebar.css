@@ -1,0 +1,74 @@
+.sidebar{
+    flex: 1;
+    height: calc(100vh - 50px);
+    background-color: white;
+    position: sticky;
+    top: 30px;
+}
+.login-text-img{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    padding: 10px 0 0 14px;
+    margin-top: 0px;
+}
+.log-input{
+  padding-left: 40px;
+  width: 200px;
+  height: 30px;
+  border-radius: 60px;
+  /* box-shadow: inset 0px 0px 25px 0px #888; */
+  /* border: none; */
+  outline: none;
+  background-color: #fff;
+  border-color: rgb(146, 169, 170);
+}
+.icon-img{
+  width: 200px;
+  height: 200px;
+  padding-top: 50px;
+  padding-right: 15px;
+}
+.location-box{
+  text-align: left;
+  padding-left: 20px;
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 40px;
+}
+.temp{
+  text-align: left;
+  padding-left: 10px;
+  font-size: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 10px;
+}
+.dash_card_icon{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  padding-left: 15px;
+  padding-top: 3px;
+  margin-right: 10px;
+}
+.dash_card_content{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.container{
+  padding-top: 5px;
+}
+.dash_card_container{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  padding-bottom: 10px;
+}
+
+.dash_card_content > p {
+  font-size: 25px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
